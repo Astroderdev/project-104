@@ -1,0 +1,15 @@
+body{
+    background-color: coral;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+    width: 800px;
+    font-size: 25;
+}
+
+#webcam{
+    border: dashed 5px lightblue;
+    height: 200px;
+    width: 300px
+}
