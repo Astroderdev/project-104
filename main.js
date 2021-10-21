@@ -5,7 +5,7 @@ Webcam.set({
     image_quality: 90
 });
 camera = document.getElementById("webcam");
-Webcam.attach('#webcam');
+Webcam.attach(camera);
 
 function take_snapshot(){
     Webcam.snap(function(data_uri){
